@@ -1,0 +1,13 @@
+# build artifacts
+*.o
+/wsprd
+
+# wsprd runtime output (wsprmon redirects these to /dev/null in production)
+ALL_WSPR.TXT
+wspr_spots.txt
+wspr_timer.out
+hashtable.txt
+
+# test captures
+*.wav
+*.c2
