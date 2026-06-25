@@ -1,3 +1,13 @@
+Changes From Upstream
+----------------------------------------------------------------------
+
+  - replaced fortran files with a stub so gfortran is not required to build
+    (removes support for OSD, the deep-decode -o flag)
+  - changed compile flags to use more portable flags with support for x86
+    and 32/64-bit ARM (Raspberry Pi)
+
+----------------------------------------------------------------------
+
 Minimal set of files required to build the WSPR decoder by Joe Taylor, K1JT and Steve Franke, K9AN.
 
 The original sources can be found at:
