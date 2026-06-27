@@ -13,7 +13,7 @@ RM = rm -f
 ## Portable flags: builds on x86 dev boxes and ARM Pis (32- or 64-bit).
 ## For extra speed on a 32-bit ARMv7 Pi you may add:
 ##   -march=armv7-a -mtune=cortex-a9 -mfpu=neon -mfloat-abi=hard
-CFLAGS = -Wall -O3 -funroll-loops -ffast-math
+CFLAGS = -Wall -O3 -ffast-math
 
 all: $(TARGET)
 
